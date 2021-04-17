@@ -145,9 +145,9 @@ void dodajeUcznia2(Student** St) {
 		}
 
 	} while (tempNrIndeksu > iloscUcznioweWKlasie || tempNrIndeksu < 0);
-	if (St[tempNrIndeksu] == nullptr) {
+	if (St[tempNrIndeksu] == nullptr) { ///gfsdfsdgdfg
 		St[tempNrIndeksu] == new Student;
-		St[tempNrIndeksu]->nrIndeksu = tempNrIndeksu;
+		St[tempNrIndeksu]->nrIndeksu = tempNrIndeksu; 
 		cout << "Nie ma cie jeszcze w bazie danych."
 			<< "\nProsze o wprowadzenie nowych danych: ";
 		cout << "Wprowadz swoje imie: ";
